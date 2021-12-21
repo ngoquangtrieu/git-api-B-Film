@@ -203,6 +203,11 @@ video{
     .formdangnhapdangky input[type=password]{
         width: 300px;
     }
+
+    .icon1,
+    .icon2{
+        display: none;
+    }
 }
 @media screen and (max-width:414px){
     .formdangnhapdangky {
