@@ -76,6 +76,7 @@ video{
     border-radius: 5px;
     box-shadow: rgb(234, 96, 96) 5px 5px 5px;
     font-size: 20px;
+    width: 308px;
     color: #ccc;
 }
 
@@ -107,6 +108,7 @@ video{
     display: inline-block;
     position: relative;
     transform: translateX(-30px);
+    font-size: 14px;
 }
 
 .icon2{
@@ -114,6 +116,8 @@ video{
     display: inline-block;
     position: relative;
     transform: translateX(-30px);
+    font-size: 14px;
+
 }
 
 .loiEmailDangNhap span{
@@ -185,25 +189,35 @@ video{
     visibility: hidden;
 }
 
+.none{
+    opacity: 0;
+    visibility: hidden;
+}
+
 /* Responsive */
 @media screen and (max-width:414px){
     .formdangnhapdangky {
-        width: 350px;
+        width: 280px;
         margin-left: 10%;
+    }
+
+    .formdangnhapdangky input[type=email],
+    .formdangnhapdangky input[type=password]{
+        width: 250px;
     }
 }
 
 @media screen and (max-width:320px){
     .formdangnhapdangky {
-        width: 300px;
+        width: 230px;
     }
 
     .formdangnhapdangky input[type=email]{
-        width: 258px;
+        width: 200px;
     }
 
     .formdangnhapdangky input[type=password]{
-        width: 258px;
+        width: 200px;
     }
 
     .formdangnhapdangky p{
@@ -213,7 +227,7 @@ video{
     }
 
     .formdangnhapdangky input[type=submit] {
-        margin: 20px 0 20px 70px;
+        margin: 20px 0 20px 40px;
         
     }
 }

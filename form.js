@@ -81,3 +81,17 @@ confirmpassword.addEventListener("keyup",function(){
     }
 })
 
+const inputs = document.querySelectorAll("input");
+const nutratrangchu = document.querySelector(".trangchu");
+inputs.forEach(function(input){
+    input.addEventListener("focus",function(){
+        nutratrangchu.classList.add("none");
+        dangky.classList.add("none");
+        dangnhap.classList.add("none");
+    })
+    input.addEventListener("focusout",function(){
+        nutratrangchu.classList.remove("none");
+        dangky.classList.remove("none");
+        dangnhap.classList.remove("none");
+    })
+})
