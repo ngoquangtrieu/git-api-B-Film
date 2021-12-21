@@ -61,6 +61,7 @@ video{
     font-size: 20px;
     box-shadow: rgb(234, 96, 96) 5px 5px 5px;
     color: #ccc;
+    display: block;
 }
 
 .formdangnhapdangky input[type=email]::placeholder{
@@ -69,6 +70,7 @@ video{
 
 .formdangnhapdangky input[type=password]{
     padding: 13px 50px 13px 13px;
+    width: 308px;
     background-color: transparent;
     outline: none;
     border: solid 1px rgb(234, 96, 96);
@@ -76,8 +78,8 @@ video{
     border-radius: 5px;
     box-shadow: rgb(234, 96, 96) 5px 5px 5px;
     font-size: 20px;
-    width: 308px;
     color: #ccc;
+    display: block;
 }
 
 .formdangnhapdangky input[type=password]::placeholder{
@@ -195,6 +197,13 @@ video{
 }
 
 /* Responsive */
+@media screen and (max-width:720px)
+{
+    .formdangnhapdangky input[type=email],
+    .formdangnhapdangky input[type=password]{
+        width: 300px;
+    }
+}
 @media screen and (max-width:414px){
     .formdangnhapdangky {
         width: 280px;
