@@ -105,23 +105,6 @@ video{
     cursor: pointer;
 }
 
-.icon1{
-    color: rgb(234, 96, 96);
-    display: inline-block;
-    position: relative;
-    transform: translateX(-30px);
-    font-size: 14px;
-}
-
-.icon2{
-    color: rgb(234, 96, 96);
-    display: inline-block;
-    position: relative;
-    transform: translateX(-30px);
-    font-size: 14px;
-
-}
-
 .loiEmailDangNhap span{
     color: rgb(226, 30, 30);
     font-weight: 500;
@@ -204,10 +187,6 @@ video{
         width: 300px;
     }
 
-    .icon1,
-    .icon2{
-        display: none;
-    }
 }
 @media screen and (max-width:414px){
     .formdangnhapdangky {
