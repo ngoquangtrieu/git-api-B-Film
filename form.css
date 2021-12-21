@@ -61,6 +61,7 @@ video{
     font-size: 20px;
     box-shadow: rgb(234, 96, 96) 5px 5px 5px;
     color: #ccc;
+    margin-left: 5%;
     display: block;
 }
 
@@ -79,6 +80,7 @@ video{
     box-shadow: rgb(234, 96, 96) 5px 5px 5px;
     font-size: 20px;
     color: #ccc;
+    margin-left: 5%;
     display: block;
 }
 
@@ -184,7 +186,7 @@ video{
 {
     .formdangnhapdangky input[type=email],
     .formdangnhapdangky input[type=password]{
-        width: 300px;
+        width: 300px;        
     }
 
 }
@@ -197,6 +199,12 @@ video{
     .formdangnhapdangky input[type=email],
     .formdangnhapdangky input[type=password]{
         width: 250px;
+        margin-left: 0%;
+    }
+
+    .formdangnhapdangky input[type=submit] {
+        margin: 20px 0 20px 70px;
+        
     }
 }
 
