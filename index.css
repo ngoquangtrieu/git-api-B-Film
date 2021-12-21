@@ -59,6 +59,10 @@ html,body{
     height: 100%;
 }
 
+.logo-img img:hover{
+    cursor: pointer;
+}
+
 .search-box{
     flex: 4;
     color: rgb(113, 23, 234);
@@ -384,6 +388,12 @@ input:focus{
     height: 100%;
     border-radius: 5px;
     object-fit: cover;
+    transition: 0.4s;
+}
+
+.movie-img img:hover{
+    transform: scale(1.2);
+    transition: 0.4s;
 }
 
 .movie-infor{
@@ -494,7 +504,7 @@ input:focus{
     color: white;
 }
 
-.footer li:hover{
+.footer li:hover a{
     color: rgb(234, 96, 96);
     cursor: pointer;
     transition: 0.4s;

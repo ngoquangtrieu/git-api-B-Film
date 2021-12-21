@@ -107,29 +107,14 @@ video{
     cursor: pointer;
 }
 
-.loiEmailDangNhap span{
-    color: rgb(226, 30, 30);
-    font-weight: 500;
-}
-
-.loiPasswordDangNhap span{
-    color: rgb(226, 30, 30);
-    font-weight: 500;
-}
-
-.loiEmailDangKy span{
-    color: rgb(226, 30, 30);
-    font-weight: 500;
-}
-
-.loiPasswordDangKy span{
-    color: rgb(226, 30, 30);
-    font-weight: 500;
-}
-
+.loiEmailDangNhap span,
+.loiPasswordDangNhap span,
+.loiEmailDangKy span,
+.loiPasswordDangKy span,
 .loiCfPasswordDangNhap span{
-    color: rgb(226, 30, 30);
+    color: rgba(224, 39, 39, 0.932);
     font-weight: 500;
+    margin-left: 5%;
 }
 
 .trangchu{
@@ -196,6 +181,14 @@ video{
         margin-left: 10%;
     }
 
+    .loiEmailDangNhap span,
+    .loiPasswordDangNhap span,
+    .loiEmailDangKy span,
+    .loiPasswordDangKy span,
+    .loiCfPasswordDangNhap span{
+        margin-left: 0;
+    }
+
     .formdangnhapdangky input[type=email],
     .formdangnhapdangky input[type=password]{
         width: 250px;
@@ -204,7 +197,6 @@ video{
 
     .formdangnhapdangky input[type=submit] {
         margin: 20px 0 20px 70px;
-        
     }
 }
 
